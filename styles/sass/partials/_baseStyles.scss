@@ -1,0 +1,19 @@
+html{
+    font-size: 125%;
+}
+.wrapper{
+    max-width: 1080px;
+    width: 70%;
+    margin: 0 auto;
+}
+h1,
+h2,
+h3,
+h4,
+a{
+    font-family: $siteFont;
+    text-transform: uppercase;
+}
+.flexContainer{
+    display: flex;
+}
