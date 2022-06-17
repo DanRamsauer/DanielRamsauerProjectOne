@@ -251,6 +251,10 @@ a {
   display: flex;
 }
 
+img {
+  width: 100%;
+}
+
 header nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -298,9 +302,15 @@ header .headerImgTwo {
   text-align: left;
 }
 
+.skills {
+  margin: 50px 0;
+}
 .skills .wrapper {
   margin: 50px 100px;
   max-width: 35%;
+}
+.skills img {
+  max-width: 1000px;
 }
 
 .gear .flexContainer {
@@ -319,4 +329,7 @@ header .headerImgTwo {
 }
 .gear a {
   display: block;
+}
+.gear img {
+  max-width: 1000px;
 }

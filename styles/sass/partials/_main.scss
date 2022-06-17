@@ -15,9 +15,13 @@
 }
 
 .skills{
+    margin: 50px 0;
     .wrapper{
         margin: 50px 100px;
         max-width: 35%;
+    }
+    img{
+        max-width: 1000px;
     }
 }
 
@@ -35,5 +39,8 @@
     }
     a{
         display: block;
+    }
+    img{
+        max-width: 1000px;
     }
 }
