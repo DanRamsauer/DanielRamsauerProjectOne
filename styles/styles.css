@@ -333,3 +333,21 @@ header .headerImgTwo {
 .gear img {
   max-width: 1000px;
 }
+
+.links .topContainer,
+.links .bottomContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.links .topPicks,
+.links .community,
+.links .blog,
+.links .touch {
+  margin: 20px;
+}
+.links i {
+  padding-top: 46px;
+  background-color: #4CEEA7;
+  border-radius: 100%;
+}

@@ -44,3 +44,21 @@
         max-width: 1000px;
     }
 }
+
+.links{
+    .topContainer,
+    .bottomContainer{
+        display: flex;
+    }
+    .topPicks,
+    .community,
+    .blog,
+    .touch{
+        margin: 20px;
+    }
+    i{
+        padding-top: 46px;
+        background-color: #4CEEA7;
+        border-radius: 100%;
+    }
+}
