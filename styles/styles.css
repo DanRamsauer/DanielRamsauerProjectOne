@@ -239,10 +239,20 @@ html {
 h1,
 h2,
 h3,
-h4,
 a {
   font-family: "Playfair Display", serif;
   text-transform: uppercase;
+}
+
+h3 {
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 32px;
+  font-family: "Roboto", sans-serif;
 }
 
 .flexContainer {
@@ -256,6 +266,13 @@ img {
   height: auto;
 }
 
+header {
+  background-image: url(../assets/captured-final-assets/header-image.jpg);
+  background-size: cover;
+  position: relative;
+  z-index: -20;
+  height: 50vh;
+}
 header nav {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -270,29 +287,25 @@ header a {
   text-decoration: none;
   font-size: 1rem;
   margin: 15px;
+  line-height: 29px;
+  letter-spacing: 1px;
 }
 header h1 {
   text-align: center;
   font-size: 6.9rem;
-  margin-top: 400px;
-}
-header .headerImgOne {
-  min-width: 800px;
-  width: 100%;
-  position: absolute;
-  z-index: -20;
+  margin-top: 30vh;
 }
 header .headerImgTwo {
-  width: 40%;
-  border: 50px solid #fdfa69;
+  width: 35%;
+  border: 30px solid #fdfa69;
   position: absolute;
   right: 0;
-  bottom: -40px;
+  bottom: -90px;
   z-index: -10;
 }
 
 .about {
-  margin: 200px 0 100px 0;
+  margin: 150px 0 100px 0;
 }
 .about a {
   display: block;
@@ -300,7 +313,8 @@ header .headerImgTwo {
 }
 .about h2 {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.2rem;
+  line-height: 92px;
 }
 .about p {
   text-align: left;
@@ -358,6 +372,50 @@ header .headerImgTwo {
   position: absolute;
   left: -50px;
   top: 15px;
+}
+
+.profile {
+  margin-top: 90px;
+}
+.profile .thisMonth {
+  margin-left: 70px;
+}
+.profile .flexContainer {
+  margin-bottom: 100px;
+}
+.profile h3 {
+  margin: 0 auto;
+}
+.profile .gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.profile .gallery img {
+  width: calc(33.3333333333% - 50px);
+  margin: 25px;
+}
+
+footer {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  color: white;
+  height: 40px;
+}
+footer h4 {
+  text-transform: capitalize;
+  font-weight: 200;
 }
 
 @media (max-width: 500px) {

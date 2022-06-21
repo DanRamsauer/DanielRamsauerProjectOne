@@ -1,4 +1,9 @@
 header{
+    background-image: url(../assets/captured-final-assets/header-image.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: -20;
+    height: 50vh;
     nav{
         display: flex;
         justify-content: end;
@@ -9,25 +14,20 @@ header{
         text-decoration: none;
         font-size: 1rem;
         margin: 15px;
+        line-height: 29px;
+        letter-spacing: 1px;
     }
     h1{
         text-align: center;
         font-size: 6.9rem;
-        margin-top: 400px;
-        
-    }
-    .headerImgOne{
-        min-width: 800px;
-        width: 100%;
-        position: absolute;
-        z-index: -20;
+        margin-top: 30vh;
     }
     .headerImgTwo{
-        width: 40%;
-        border: 50px solid #fdfa69;
+        width: 35%;
+        border: 30px solid #fdfa69;
         position: absolute;
         right: 0;
-        bottom: -40px;
+        bottom: -90px;
         z-index: -10;
     }
 }
