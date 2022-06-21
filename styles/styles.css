@@ -231,8 +231,8 @@ html {
 }
 
 .wrapper {
-  max-width: 1080px;
-  width: 70%;
+  max-width: 1200px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -266,14 +266,26 @@ img {
   height: auto;
 }
 
+main a {
+  text-decoration: none;
+  color: black;
+  background-color: #4CEEA7;
+  border: solid 15px #4CEEA7;
+}
+
+.buttonContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 header {
   background-image: url(../assets/captured-final-assets/header-image.jpg);
   background-size: cover;
   position: relative;
-  z-index: -20;
   height: 50vh;
 }
-header nav {
+header ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -281,6 +293,12 @@ header nav {
       -ms-flex-pack: end;
           justify-content: end;
   width: 100%;
+  margin: 0;
+}
+header ul li {
+  list-style: none;
+  margin-top: 20px;
+  z-index: 10;
 }
 header a {
   color: black;
@@ -290,22 +308,31 @@ header a {
   line-height: 29px;
   letter-spacing: 1px;
 }
+header a:hover, header a:focus {
+  border-bottom: 2px #4CEEA7 solid;
+}
 header h1 {
   text-align: center;
   font-size: 6.9rem;
   margin-top: 30vh;
+  position: relative;
+  z-index: 10;
 }
 header .headerImgTwo {
   width: 35%;
-  border: 30px solid #fdfa69;
+  border: 30px solid #FDFA69;
   position: absolute;
   right: 0;
   bottom: -90px;
-  z-index: -10;
 }
 
 .about {
   margin: 150px 0 100px 0;
+}
+.about .buttonContainer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .about a {
   display: block;
@@ -321,7 +348,7 @@ header .headerImgTwo {
 }
 
 .skills {
-  margin: 50px 0;
+  margin: 100px 0;
 }
 .skills .wrapper {
   margin: 50px 100px;
@@ -329,8 +356,18 @@ header .headerImgTwo {
 }
 .skills img {
   max-width: 1000px;
+  -webkit-box-shadow: 40px 30px #FDFA69;
+          box-shadow: 40px 30px #FDFA69;
 }
 
+.gear {
+  margin: 100px 0;
+}
+.gear .buttonContainer {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
 .gear .flexContainer {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
@@ -350,6 +387,8 @@ header .headerImgTwo {
 }
 .gear img {
   max-width: 1000px;
+  -webkit-box-shadow: -40px 30px #FDFA69;
+          box-shadow: -40px 30px #FDFA69;
 }
 
 .links .topContainer,
@@ -371,17 +410,21 @@ header .headerImgTwo {
   border-radius: 100%;
   position: absolute;
   left: -50px;
-  top: 15px;
+  top: 25px;
 }
 
 .profile {
   margin-top: 90px;
 }
 .profile .thisMonth {
-  margin-left: 70px;
+  margin-left: 90px;
 }
 .profile .flexContainer {
   margin-bottom: 100px;
+}
+.profile .flexContainer img {
+  -webkit-box-shadow: 40px 30px #FDFA69;
+          box-shadow: 40px 30px #FDFA69;
 }
 .profile h3 {
   margin: 0 auto;

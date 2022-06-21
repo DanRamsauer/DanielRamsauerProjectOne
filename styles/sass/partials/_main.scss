@@ -1,6 +1,9 @@
 .about{
     margin: 150px 0 100px 0;
 
+    .buttonContainer{
+        justify-content: center;
+    }
     a{
         display: block;
         text-align: center;
@@ -16,17 +19,22 @@
 }
 
 .skills{
-    margin: 50px 0;
+    margin: 100px 0;
     .wrapper{
         margin: 50px 100px;
         max-width: 35%;
     }
     img{
         max-width: 1000px;
+        box-shadow: 40px 30px $siteYellow;
     }
 }
 
 .gear{
+    margin: 100px 0;
+    .buttonContainer{
+        justify-content: end;
+    }
     .flexContainer{
         flex-direction: row-reverse;
     }
@@ -43,6 +51,7 @@
     }
     img{
         max-width: 1000px;
+        box-shadow: -40px 30px $siteYellow;
     }
 }
 
@@ -64,18 +73,22 @@
         border-radius: 100%;
         position: absolute;
         left: -50px;
-        top: 15px;
+        top: 25px;
     }
 }
 
 .profile{
     margin-top: 90px;
-
+    
     .thisMonth{
-        margin-left: 70px;
+        margin-left: 90px;
     }
     .flexContainer{
         margin-bottom: 100px;
+        
+        img{
+            box-shadow: 40px 30px $siteYellow;
+        }
     }
     h3{
         margin: 0 auto;

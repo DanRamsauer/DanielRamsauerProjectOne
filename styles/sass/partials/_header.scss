@@ -1,13 +1,19 @@
 header{
-    background-image: url(../assets/captured-final-assets/header-image.jpg);
-    background-size: cover;
-    position: relative;
-    z-index: -20;
-    height: 50vh;
-    nav{
+        background-image: url(../assets/captured-final-assets/header-image.jpg);
+        background-size: cover;
+        position: relative;
+        height: 50vh;
+
+    ul{
         display: flex;
         justify-content: end;
         width: 100%;
+        margin: 0;
+        li{
+            list-style: none;
+            margin-top: 20px;
+            z-index: 10;
+        }
     }
     a{
         color: black;
@@ -16,18 +22,24 @@ header{
         margin: 15px;
         line-height: 29px;
         letter-spacing: 1px;
+
+        &:hover,
+        &:focus{
+            border-bottom: 2px $siteGreen solid;
+        }
     }
     h1{
         text-align: center;
         font-size: 6.9rem;
         margin-top: 30vh;
+        position: relative;
+        z-index: 10;
     }
     .headerImgTwo{
         width: 35%;
-        border: 30px solid #fdfa69;
+        border: 30px solid $siteYellow;
         position: absolute;
         right: 0;
         bottom: -90px;
-        z-index: -10;
     }
 }
