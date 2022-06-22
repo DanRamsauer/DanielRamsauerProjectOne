@@ -279,13 +279,13 @@ main a {
   display: flex;
 }
 
-header {
+.mainPage {
   background-image: url(../assets/captured-final-assets/header-image.jpg);
   background-size: cover;
   position: relative;
   height: 50vh;
 }
-header ul {
+.mainPage ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -295,12 +295,12 @@ header ul {
   width: 100%;
   margin: 0;
 }
-header ul li {
+.mainPage ul li {
   list-style: none;
   margin-top: 20px;
   z-index: 10;
 }
-header a {
+.mainPage a {
   color: black;
   text-decoration: none;
   font-size: 1rem;
@@ -308,17 +308,17 @@ header a {
   line-height: 29px;
   letter-spacing: 1px;
 }
-header a:hover, header a:focus {
+.mainPage a:hover, .mainPage a:focus {
   border-bottom: 2px #4CEEA7 solid;
 }
-header h1 {
+.mainPage h1 {
   text-align: center;
   font-size: 6.9rem;
   margin-top: 30vh;
   position: relative;
   z-index: 10;
 }
-header .headerImgTwo {
+.mainPage .headerImgTwo {
   width: 35%;
   border: 30px solid #FDFA69;
   position: absolute;
@@ -459,6 +459,46 @@ footer {
 footer h4 {
   text-transform: capitalize;
   font-weight: 200;
+}
+
+.contactPage {
+  background-image: url(../assets/captured-final-assets/contact-header.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 40vh;
+}
+.contactPage ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  width: 100%;
+  margin: 0;
+}
+.contactPage ul li {
+  list-style: none;
+  margin-top: 20px;
+}
+.contactPage a {
+  color: black;
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 15px;
+  line-height: 29px;
+  letter-spacing: 1px;
+}
+.contactPage a:hover, .contactPage a:focus {
+  border-bottom: 2px #4CEEA7 solid;
+}
+.contactPage h1 {
+  text-align: center;
+  font-size: 4rem;
+  position: relative;
+  z-index: 10;
+  margin-top: 100px;
 }
 
 @media (max-width: 500px) {
