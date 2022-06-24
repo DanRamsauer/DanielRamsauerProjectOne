@@ -5,7 +5,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 40vh;
+    height: 50vh;
 
 ul{
     display: flex;
@@ -45,17 +45,61 @@ h1{
     .wrapper{
         display: flex;
         justify-content: space-between;
+        width: 100%;
+    }
+    .formContainer{
+        border-left: 40px solid $siteYellow;
+        border-bottom: 40px solid $siteYellow;
+        position: relative;
+        z-index: 10;
+        top: -200px;
+        background-color: white;
+        width: 70vh;
     }
     form{
         display: flex;
         flex-direction: column;
+        width: 60vh;
+        position: relative;
+        margin: 40px;
+        height: 30vh;
+
+        .flexBox{
+            flex-wrap: nowrap;
+        }
+        
+        input[type=text],
+        input[type=email]{
+            height: 5vh;
+            width: calc((99.3% / 2) - 10px);
+            margin: 20px 5px;
+        }
     }
     .info{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        text-align: left;
+
+        p,
+        h2,
+        ul{
+            margin: 0 auto;
+        }
+        h2,
+        ul{
+            margin-bottom: 20px;
+        }
     }
     .icons{
         display: flex;
         flex-direction: row;
+        width: 100%;
+
+        i{
+            color: black;
+            margin-right: 10px;
+        }
     }
 }

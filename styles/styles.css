@@ -231,7 +231,7 @@ html {
 }
 
 .wrapper {
-  max-width: 1200px;
+  max-width: 1300px;
   width: 80%;
   margin: 0 auto;
 }
@@ -470,7 +470,7 @@ footer h4 {
   background-size: cover;
   background-position: center;
   position: relative;
-  height: 40vh;
+  height: 50vh;
 }
 .contactHeader ul {
   display: -webkit-box;
@@ -515,6 +515,16 @@ footer h4 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 100%;
+}
+.contactPage .formContainer {
+  border-left: 40px solid #FDFA69;
+  border-bottom: 40px solid #FDFA69;
+  position: relative;
+  z-index: 10;
+  top: -200px;
+  background-color: white;
+  width: 70vh;
 }
 .contactPage form {
   display: -webkit-box;
@@ -524,6 +534,20 @@ footer h4 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  width: 60vh;
+  position: relative;
+  margin: 40px;
+  height: 30vh;
+}
+.contactPage form .flexBox {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+.contactPage form input[type=text],
+.contactPage form input[type=email] {
+  height: 5vh;
+  width: calc(49.65% - 10px);
+  margin: 20px 5px;
 }
 .contactPage .info {
   display: -webkit-box;
@@ -533,6 +557,20 @@ footer h4 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  text-align: left;
+}
+.contactPage .info p,
+.contactPage .info h2,
+.contactPage .info ul {
+  margin: 0 auto;
+}
+.contactPage .info h2,
+.contactPage .info ul {
+  margin-bottom: 20px;
 }
 .contactPage .icons {
   display: -webkit-box;
@@ -542,6 +580,11 @@ footer h4 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  width: 100%;
+}
+.contactPage .icons i {
+  color: black;
+  margin-right: 10px;
 }
 
 .blogPage {

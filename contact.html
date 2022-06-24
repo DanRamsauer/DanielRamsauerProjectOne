@@ -31,15 +31,14 @@
                 
                 <section class="info">
                     <ul class="icons">
-                        <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
-                        <li><a href=""><i class="fa-brands fa-whatsapp"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-facebook-f fa-lg"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram fa-lg"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-twitter fa-lg"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-whatsapp fa-lg"></i></a></li>
                     </ul>
 
-                    <h2>info@email.com</h2>
-
                     <ul>
+                        <h2>info@email.com</h2>
                         <li>
                             <p>123-456-789</p>
                         </li>
@@ -55,27 +54,36 @@
                     </ul>
                 </section>
 
-            <section class="form">
+            <div class="formContainer">
+                <section class="form">
 
-                <form action="" method="get">
                     
-                    <label for="name" class="sr-only">Name</label>
-                    <input type="text" id="name" placeholder="Name">
-                    
-                    <label for="email" class="sr-only">Email adress</label>
-                    <input type="email" id="email" placeholder="Email adress">
-                    
-                    <label for="message" class="sr-only">Message</label>
-                    <textarea id="message" cols="30" rows="10" placeholder="Message"></textarea>
-                    
-                    <button type="submit" class="button">Send Message</button>
-                    
-                </form>
+                    <form action="" method="get">
+                        
+                        <div class="flexBox">
+                            <label for="name" class="sr-only">Name</label>
+                            <input type="text" id="name" placeholder="Name">
+                            
+                            <label for="email" class="sr-only">Email adress</label>
+                            <input type="email" id="email" placeholder="Email adress">
+                        </div>
+                            
+                        <label for="message" class="sr-only">Message</label>
+                        <textarea id="message" cols="50" rows="40" placeholder="Message"></textarea>
+                        
+                        <button type="submit" class="button">Send Message</button>
+                        
+                    </form>
                 
-            </section>
+                </section>
+            </div><!--End of border-->
                 
             </div> <!--End of Wrapper-->
         </section>
+
     </main>
+    <footer class="contactFooter">
+        <h4>Copyright 2022 Juno College</h4>
+    </footer>
 </body>
 </html>
