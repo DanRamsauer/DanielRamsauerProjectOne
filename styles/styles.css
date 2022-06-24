@@ -884,12 +884,59 @@ footer h4 {
             box-shadow: 20px 30px #FDFA69;
   }
 }
-@media (max-width: 500px) {
-  .gear .flexContainer,
-.flexContainer {
+@media (max-width: 700px) {
+  .mainPage {
+    background-size: cover;
+    height: 32vh;
+    min-height: 100px;
+  }
+  .mainPage ul {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .mainPage ul a {
+    position: absolute;
+    right: 0;
+  }
+  .mainPage h1 {
+    font-size: 3rem;
+    padding-top: 21vh;
+    margin: 0;
+    z-index: 20;
+  }
+  .mainPage .about {
+    margin: 0;
+  }
+  .mainPage .headerImgTwo {
+    width: 50%;
+    z-index: 10;
+    bottom: -140px;
+    right: 0;
+    border: 10px solid #FDFA69;
+  }
+
+  .gear {
+    margin: 0 auto;
+  }
+
+  .topContainer,
+.bottomContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .profile .flexContainer img {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .profile .thisMonth {
+    margin: 0 auto;
+  }
+  .profile .gallery img {
+    width: 100%;
   }
 }
