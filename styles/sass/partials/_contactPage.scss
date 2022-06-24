@@ -5,7 +5,7 @@
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 50vh;
+    min-height: 700px;
 
 ul{
     display: flex;
@@ -59,7 +59,7 @@ h1{
     form{
         display: flex;
         flex-direction: column;
-        width: 60vh;
+        min-width: 60vh;
         position: relative;
         margin: 40px;
         height: 30vh;
@@ -102,4 +102,10 @@ h1{
             margin-right: 10px;
         }
     }
+}
+.contactFooter{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }

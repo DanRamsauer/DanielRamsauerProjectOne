@@ -470,7 +470,7 @@ footer h4 {
   background-size: cover;
   background-position: center;
   position: relative;
-  height: 50vh;
+  min-height: 700px;
 }
 .contactHeader ul {
   display: -webkit-box;
@@ -534,7 +534,7 @@ footer h4 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 60vh;
+  min-width: 60vh;
   position: relative;
   margin: 40px;
   height: 30vh;
@@ -585,6 +585,13 @@ footer h4 {
 .contactPage .icons i {
   color: black;
   margin-right: 10px;
+}
+
+.contactFooter {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .blogPage {
