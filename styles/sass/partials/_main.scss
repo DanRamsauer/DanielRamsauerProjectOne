@@ -1,3 +1,4 @@
+// ------------------------------------about-----------------------------
 .about{
     margin: 150px 0 100px 0;
 
@@ -18,6 +19,7 @@
     }
 }
 
+// ------------------------------------skills section--------------------------------
 .skills{
     margin: 100px 0;
     .wrapper{
@@ -30,6 +32,7 @@
     }
 }
 
+// ----------------------------------------gear section--------------------------------
 .gear{
     margin: 100px 0;
     .buttonContainer{
@@ -55,6 +58,7 @@
     }
 }
 
+// ----------------------links section---------------------------
 .links{
     .topContainer,
     .bottomContainer{
@@ -62,7 +66,7 @@
     }
     .topPicks,
     .community,
-    .blog,
+    .mainBlog,
     .touch{
         margin: 20px;
         position: relative;
@@ -77,6 +81,7 @@
     }
 }
 
+// -----------------------------------profile section-------------------
 .profile{
     margin-top: 90px;
     

@@ -63,10 +63,6 @@ h1{
         position: relative;
         margin: 40px;
         height: 30vh;
-
-        .flexBox{
-            flex-wrap: nowrap;
-        }
         
         input[type=text],
         input[type=email]{
@@ -103,6 +99,8 @@ h1{
         }
     }
 }
+
+// -----------------------------footer-------------------------
 .contactFooter{
     position: absolute;
     bottom: 0;

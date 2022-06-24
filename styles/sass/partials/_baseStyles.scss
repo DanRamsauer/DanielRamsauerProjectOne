@@ -41,3 +41,19 @@ img{
 li{
     list-style: none;
 }
+input,
+textarea{
+    border: none;
+    border-bottom: solid 2px $siteGreen;
+}
+textarea{
+    border: 2px solid $siteGreen;
+}
+.flexbox{
+    display: flex;
+}
+
+button{
+    margin-top: 20px;
+    font-family: $headersFont;
+}

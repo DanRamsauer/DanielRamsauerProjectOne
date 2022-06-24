@@ -17,22 +17,21 @@
             <nav>
                 <ul>
                     <li><a href="./index.html">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
+                    <li><a href="./index.html#about">About</a></li>
+                    <li><a href="#home">Blog</a></li>
                     <li><a href="./contact.html">Contact</a></li>
                 </ul>
             </nav>
         <h1>Blog</h1>
         </div> <!-- End of wrapper-->
     </header>
-    <main>
+    <main class="blog">
         <section class="left">
             <img src="./assets/captured-final-assets/side-blog-image.jpg" alt="A camera lense floating in a persons hand">  
             <div class="wrapper">
                 <div class="leftTop">
                     <h3>About Captured</h3>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod similique hic odio.</p>
-                    <a href="./blog.html">Find out More.</a>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod similique hic. <a href="./blog.html">Find out More.</a></p>
                 </div><!--End of top-->
                 <div class="leftBottom">
                     <h3>Recent Posts</h3>
@@ -46,39 +45,42 @@
             </div>  <!--End of wrapper-->
         </section>
 
-        <section class="rightTop">
-            <img src="./assets/captured-final-assets/blog-post-image.jpg" alt="A woman holding a camera sitting in a field">
+        <section class="right">
             <div class="wrapper">
+                <div class="rightTop">
+                    <img class="topImg" src="./assets/captured-final-assets/blog-post-image.jpg" alt="A woman holding a camera sitting in a field">
                     <h2>Finding Great Locations</h2>
                     <p>Monday May 4th, 2019 by Dieula</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit placeat esse aliquam fugiat. Natus debitis rerum odio error obcaecati ex porro earum aliquam, ipsam, atque necessitatibus placeat incidunt accusantium. Commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptatum eum a, itaque, ullam aut dicta nihil ab distinctio tempora ipsum dolore deleniti. Placeat, molestias iste! Doloribus itaque assumenda exercitationem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id, architecto minima ipsum totam optio voluptas reiciendis, commodi necessitatibus consequuntur cupiditate et tenetur animi pariatur fuga velit explicabo est consequatur porro! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia error quia odit illum perferendis dolor nam magnam, nemo ex ipsam ratione, tenetur possimus voluptas quasi maxime dolorem neque est non. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium nesciunt ut, nihil rem harum dolore a amet? Ducimus deserunt ab a dolorum soluta. Saepe molestias earum ea tempora dolore? Doloribus? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, odit perferendis eaque fugit at rem repudiandae? Recusandae quod a ipsam cumque voluptatem non. Labore praesentium officia, maxime explicabo omnis vitae?</p>
-                </div> <!--End of wrapper-->
-            </section>
-            <section class="rightBottom">
-                <div class="wrapper">
+                </div><!--End of rightTop-->
+                <div class="rightBottom">
                     <div class="comments">
                         <h3>Comments:</h3>
                         <div class="commentOne">
                             <img src="./assets/captured-final-assets/comment-1.jpg" alt="A picture of a persons face">
-                            <p>Tuesday October 9th, 2018 by Jeremy</p>
-                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo impedit adipisci, aliquid similique nulla aut quo perspiciatis in beatae minima ipsa alias laborum maiores omnis rerum vitae non. Dolor, unde!</p>
+                            <div class="flexContainer">
+                                <p>Tuesday October 9th, 2018 by Jeremy</p>
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo impedit adipisci, aliquid similique nulla aut quo perspiciatis in beatae.</p>
+                            </div>
                         </div><!--End of commentOne-->
                         <div class="commentTwo">
                             <img src="./assets/captured-final-assets/comment-2.jpg" alt="A picture of a persons face">
-                            <p>Wednesday October 10th, 2018 by Julia</p>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis consequatur consectetur soluta doloribus, natus, inventore officiis est sequi a temporibus quas impedit quam qui consequuntur facilis iure perspiciatis animi esse.</p>
+                            <div class="flexContainer">
+                                <p>Wednesday October 10th, 2018 by Julia</p>
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis consequatur consectetur soluta doloribus, natus, inventore officiis est!</p>
+                            </div>
                         </div><!--End of commentTwo-->
                     </div><!--End of comments-->
 
                         <form action="" method="get">
                             
-                            <div class="flexBox">
+                            <div class="flexbox">
                                 <label for="name" class="sr-only">Name</label>
                                 <input type="text" id="name" placeholder="Name">
                                 
                                 <label for="email" class="sr-only">Email adress</label>
                                 <input type="email" id="email" placeholder="Email adress">
-                            </div>
+                            </div><!--End of flexbox-->
                                 
                             <label for="comment" class="sr-only">Comment</label>
                             <textarea id="comment" cols="30" rows="10" placeholder="Comment"></textarea>
@@ -86,9 +88,8 @@
                             <button type="submit" class="button">Post Comment</button>
                             
                         </form>
-
-                </div><!--End of wrapper-->
-            </section>
+                </div><!--End of right bottom-->
+                </div> <!--End of wrapper-->
     </main>
     <footer>
         <h4>Copyright 2022 Juno College</h4>
