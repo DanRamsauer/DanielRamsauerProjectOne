@@ -1,7 +1,7 @@
 // --------------------------------Header----------------------------------
 
-.contactHeader{
-    background-image: url(../assets/captured-final-assets/contact-header.jpg);
+.blogPage{
+    background-image: url(../assets/captured-final-assets/blog-header.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -37,25 +37,4 @@ h1{
     z-index: 10;
     margin-top: 100px;
 }
-}
-
-// -----------------------------------Main---------------------------------
-.contactPage{
-    position: relative;
-    .wrapper{
-        display: flex;
-        justify-content: space-between;
-    }
-    form{
-        display: flex;
-        flex-direction: column;
-    }
-    .info{
-        display: flex;
-        flex-direction: column;
-    }
-    .icons{
-        display: flex;
-        flex-direction: row;
-    }
 }
