@@ -1,3 +1,88 @@
+@media (max-width: 1300px) {
+    .mainPage{
+        h1{
+            font-size: 5rem;
+        }
+    }
+    // .contactPage{
+    //     .wrapper{
+    //         flex-direction: column-reverse;
+    //         margin: 0 auto;
+    //     }
+    //     .formContainer{
+    //         position: relative;
+    //         width: 100%;
+    //         top: 0;
+    //         border: none;
+    //     }
+    // }
+}
+
+
+
+
+// ---------------------------when things start breaking------------------------
+@media (max-width: 1000px) {
+
+    // ------------------------main Page------------------------
+    .mainPage{
+        h1{
+            margin-top: 37vh;
+        }
+    }
+
+    .skills,
+    .gear,
+    .thisMonth{
+        text-align: center;
+
+        .wrapper{
+            margin: 20px auto;
+            max-width: 100%;
+        }
+    }
+
+    .gear{
+        h3{
+            text-align: center;
+        }
+        .buttonContainer{
+            justify-content: center;
+        }
+    }
+
+    .gear .flexContainer,
+    .flexContainer{
+        flex-direction: column;
+    }
+
+    .profile{
+        img{
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+    
+    .thisMonth{
+        margin-top: 50px;
+    }
+}
+
+
+
+
+
+
+
+// -------------------------------------------tablet------------------------------
+@media (max-width: 800px) {
+    .gear .flexContainer,
+    .flexContainer{
+        flex-direction: column;
+    }
+}
+
+// --------------------------mobile------------------------------
 @media (max-width: 500px) {
     .gear .flexContainer,
     .flexContainer{

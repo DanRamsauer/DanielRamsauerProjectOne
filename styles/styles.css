@@ -310,6 +310,7 @@ button {
   background-size: cover;
   position: relative;
   height: 50vh;
+  min-height: 600px;
 }
 .mainPage ul {
   display: -webkit-box;
@@ -605,13 +606,6 @@ footer h4 {
   margin-right: 10px;
 }
 
-.contactFooter {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
 .blogPage {
   background-image: url(../assets/captured-final-assets/blog-header.jpg);
   background-size: cover;
@@ -772,6 +766,63 @@ footer h4 {
   margin-right: 15px;
 }
 
+@media (max-width: 1300px) {
+  .mainPage h1 {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 1000px) {
+  .mainPage h1 {
+    margin-top: 37vh;
+  }
+
+  .skills,
+.gear,
+.thisMonth {
+    text-align: center;
+  }
+  .skills .wrapper,
+.gear .wrapper,
+.thisMonth .wrapper {
+    margin: 20px auto;
+    max-width: 100%;
+  }
+
+  .gear h3 {
+    text-align: center;
+  }
+  .gear .buttonContainer {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .gear .flexContainer,
+.flexContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+
+  .profile img {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .thisMonth {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 800px) {
+  .gear .flexContainer,
+.flexContainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 @media (max-width: 500px) {
   .gear .flexContainer,
 .flexContainer {
