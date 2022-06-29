@@ -146,7 +146,7 @@
 
         h1{
             font-size: 3rem;
-            padding-top: 21vh;
+            padding-top: 12vh;
             margin: 0;
             z-index: 20;
         }
@@ -190,6 +190,35 @@
             img{
                 width: 100%;
             }
+        }
+    }
+
+
+    // ----------------------------Blog Page-------------------------------
+    .blog{
+        .left{
+            flex-direction: column-reverse;
+
+            .wrapper{
+                margin: 0 auto;
+                border-bottom: none;
+            }
+        }
+        
+        .right{
+            width: 100%;
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    // ----------------------contact page----------------------
+    .contactPage{
+        .formContainer,
+        form{
+            min-width: 100px;
         }
     }
 }

@@ -902,7 +902,7 @@ footer h4 {
   }
   .mainPage h1 {
     font-size: 3rem;
-    padding-top: 21vh;
+    padding-top: 12vh;
     margin: 0;
     z-index: 20;
   }
@@ -938,5 +938,27 @@ footer h4 {
   }
   .profile .gallery img {
     width: 100%;
+  }
+
+  .blog .left {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .blog .left .wrapper {
+    margin: 0 auto;
+    border-bottom: none;
+  }
+  .blog .right {
+    width: 100%;
+  }
+  .blog .right img {
+    width: 100%;
+  }
+
+  .contactPage .formContainer,
+.contactPage form {
+    min-width: 100px;
   }
 }
