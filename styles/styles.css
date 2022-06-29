@@ -916,6 +916,9 @@ footer h4 {
     right: 0;
     border: 10px solid #FDFA69;
   }
+  .mainPage .gallery img {
+    margin: 0 auto;
+  }
 
   .gear {
     margin: 0 auto;
