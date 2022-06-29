@@ -943,6 +943,10 @@ footer h4 {
     width: 100%;
   }
 
+  .blogPage ul a {
+    margin: 20px 10px;
+  }
+
   .blog .left {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -958,6 +962,10 @@ footer h4 {
   }
   .blog .right img {
     width: 100%;
+  }
+
+  .contactHeader ul a {
+    margin: 20px 10px;
   }
 
   .contactPage .formContainer,

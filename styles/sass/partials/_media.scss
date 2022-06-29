@@ -201,6 +201,13 @@
 
 
     // ----------------------------Blog Page-------------------------------
+    .blogPage{
+        ul{
+            a{
+                margin: 20px 10px;
+            }
+        }
+    }
     .blog{
         .left{
             flex-direction: column-reverse;
@@ -221,6 +228,14 @@
     }
 
     // ----------------------contact page----------------------
+    .contactHeader{
+        ul{
+            a{
+                margin: 20px 10px;
+            }
+        }
+    }
+    
     .contactPage{
         .formContainer,
         form{
