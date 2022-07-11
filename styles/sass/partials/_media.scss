@@ -136,12 +136,7 @@
         min-height: 100px;
 
         ul{
-            flex-direction: column;
-
-            a{
-                position: absolute;
-                right: 0;
-            }
+            visibility: hidden;
         }
 
         h1{
@@ -168,6 +163,11 @@
             img{
                 margin: 0 auto;
             }
+        }
+        .menuButton{
+            visibility: visible;
+            right: 50px;
+            position: absolute;
         }
     }
 

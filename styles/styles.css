@@ -352,6 +352,35 @@ button {
   right: 0;
   bottom: -90px;
 }
+.mainPage .slideOutNav {
+  z-index: 30;
+  background-color: #FDFA69;
+  position: fixed;
+  top: 0;
+  left: -506px;
+  height: 100vh;
+  max-width: 506px;
+  width: 100%;
+  padding: 35px 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.mainPage .slideOutNav .closeMenu {
+  color: white;
+}
+.mainPage .hamburgerMenu {
+  left: 0;
+  width: 100%;
+}
+.mainPage .menuButton,
+.mainPage #openSideMenu {
+  visibility: hidden;
+  z-index: 40;
+}
+.mainPage .menuButton img,
+.mainPage #openSideMenu img {
+  width: 30px;
+}
 
 .about {
   margin: 150px 0 100px 0;
@@ -775,7 +804,6 @@ footer h4 {
   .mainPage h1 {
     margin-top: 37vh;
   }
-
   .skills,
 .gear,
 .thisMonth {
@@ -787,7 +815,6 @@ footer h4 {
     margin: 20px auto;
     max-width: 100%;
   }
-
   .gear h3 {
     text-align: center;
   }
@@ -796,7 +823,6 @@ footer h4 {
         -ms-flex-pack: center;
             justify-content: center;
   }
-
   .gear .flexContainer,
 .flexContainer {
     -webkit-box-orient: vertical;
@@ -804,20 +830,16 @@ footer h4 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-
   .profile img {
     width: 50%;
     margin: 0 auto;
   }
-
   .thisMonth {
     margin-top: 50px;
   }
-
   .contactHeader {
     min-height: 40vh;
   }
-
   .contactPage .wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -839,7 +861,6 @@ footer h4 {
   .contactPage .icons i {
     margin: 25px;
   }
-
   .blog {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -891,14 +912,7 @@ footer h4 {
     min-height: 100px;
   }
   .mainPage ul {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .mainPage ul a {
-    position: absolute;
-    right: 0;
+    visibility: hidden;
   }
   .mainPage h1 {
     font-size: 3rem;
@@ -919,11 +933,14 @@ footer h4 {
   .mainPage .gallery img {
     margin: 0 auto;
   }
-
+  .mainPage .menuButton {
+    visibility: visible;
+    right: 50px;
+    position: absolute;
+  }
   .gear {
     margin: 0 auto;
   }
-
   .topContainer,
 .bottomContainer {
     -webkit-box-orient: vertical;
@@ -931,7 +948,6 @@ footer h4 {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-
   .profile .flexContainer img {
     width: 100%;
     margin-bottom: 40px;
@@ -942,11 +958,9 @@ footer h4 {
   .profile .gallery img {
     width: 100%;
   }
-
   .blogPage ul a {
     margin: 20px 10px;
   }
-
   .blog .left {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -963,11 +977,9 @@ footer h4 {
   .blog .right img {
     width: 100%;
   }
-
   .contactHeader ul a {
     margin: 20px 10px;
   }
-
   .contactPage .formContainer,
 .contactPage form {
     min-width: 100px;

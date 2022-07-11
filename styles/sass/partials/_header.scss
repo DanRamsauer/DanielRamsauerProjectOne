@@ -43,4 +43,31 @@
         right: 0;
         bottom: -90px;
     }
+    .slideOutNav{
+        z-index: 30;
+        background-color: $siteYellow;
+        position: fixed;
+        top: 0;
+        left: -506px;
+        height: 100vh;
+        max-width: 506px;
+        width: 100%;
+        padding: 35px 50px;
+        transition: 0.5s;
+        .closeMenu{
+            color: white;
+        }
+    }
+    .hamburgerMenu{
+        left: 0;
+        width: 100%;
+    }
+    .menuButton,
+    #openSideMenu{
+        visibility: hidden;
+        z-index: 40;
+        img{
+            width: 30px;
+        }
+    }
 }

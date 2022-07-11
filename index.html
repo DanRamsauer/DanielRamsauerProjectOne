@@ -16,14 +16,36 @@
     <!-- -------------------------------Header-------------------------------- -->
     <header id="home" class="mainPage">
         <div class="wrapper">
-            <nav>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="./blog.html">Blog</a></li>
-                    <li><a href="./contact.html">Contact</a></li>
-                </ul>
-            </nav>
+            
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+            
+            <input type="checkbox" id="openSideMenu">
+            <label for="openSideMenu" class="menuButton">
+                <img class="menu" src="./assets/menu-button.svg" alt="Menu Button">
+            </label>
+            
+            <!-- Slide Out Nav Content -->
+			<div class="slideOutNav">
+                <div class="buttonContainer">
+                    <!-- <button class="menuClose">x</button> -->
+					<label for="openSideMenu" class="closeMenu"></label>
+				</div>
+                
+				<!-- Menu Content -->
+				<nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+				</nav>
+			</div>
         <h1>Captured</h1>
         </div> <!-- End of wrapper-->
         <img class="headerImgTwo" src="./assets/captured-final-assets/header-box-image.jpg" alt="The lens on a camera facing away">
@@ -122,4 +144,5 @@
         <h4>Copyright 2022 Juno College</h4>
     </footer>
 </body>
+<script src="./scripts.js"></script>
 </html>
