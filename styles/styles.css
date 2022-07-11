@@ -368,6 +368,15 @@ button {
 .mainPage .slideOutNav .closeMenu {
   color: white;
 }
+.mainPage .slideOutNav .slideOutNavContent {
+  margin: 25px;
+}
+.mainPage .slideOutNav .slideOutNavContent li {
+  height: 100px;
+}
+.mainPage .slideOutNav .slideOutNavContent a {
+  font-size: 2rem;
+}
 .mainPage .hamburgerMenu {
   left: 0;
   width: 100%;
